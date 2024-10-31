@@ -1,0 +1,54 @@
+h1#heading1{
+    text-align: center;
+}
+.paragraph{
+    font-family: "DejaVu Sans Mono";
+    font-size: 18px;
+}
+
+#mydivision{
+    background-color: dodgerblue;
+    margin: 40px;
+    padding: 30px;
+    color: white;
+}
+
+#test{
+    background-color: lightslategray;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    color: white;
+}
+#test img{
+    margin-right: 40px;
+    border-radius: 400px;
+}
+#main{
+    display: flex;
+}
+#advertisment{
+    background-color: red;
+    color: white;
+    margin-left: 20px;
+    padding: 30px;
+    box-shadow: 8px 6px 12px 4px black;
+}
+#accounting{
+    background-color: blue;
+    color: white;
+    margin-left: 20px;
+    padding: 30px;
+    box-shadow: 8px 6px 12px 4px black;
+}
+#payment{
+    background-color: green;
+    color: white;
+    margin-left: 20px;
+    padding: 30px;
+    box-shadow: 8px 6px 12px 4px black;
+}
+#advertisment:hover,#accounting:hover,#payment:hover{
+    background-color: gray;
+}
+
